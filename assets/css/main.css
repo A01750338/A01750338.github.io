@@ -2643,6 +2643,10 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+		#header .icons a {
+			color: rgba(255, 255, 255, 0.4);
+		}
+
 /* Footer */
 
 	#footer .icons {
@@ -3257,4 +3261,14 @@ input, select, textarea {
 
 	h2.underline {
 		max-width: 50%;
+	}
+
+	.email-contact {
+		margin-right: 0;
+	}
+	
+	@media screen and (min-width: 980px) {
+		.email-contact {
+			margin-right: -110px;
+		}
 	}
